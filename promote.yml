@@ -6,6 +6,6 @@
   - name: update all content views
     shell: "./cvmanager --config={{ item }}.yml --wait promote"
     args:
-      chdir: /root/katello-cvmanager/
+      chdir: /katello-cvmanager/
     with_items:
       - "{{ lifecycle }}"
