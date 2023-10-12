@@ -1,4 +1,4 @@
-- name: Patch Linux Servers
+- name: Patch RHEL Servers
   hosts: all
   tasks:
   tasks:
