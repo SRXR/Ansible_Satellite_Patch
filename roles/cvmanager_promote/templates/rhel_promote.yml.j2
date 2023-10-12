@@ -1,0 +1,15 @@
+---
+:settings:
+  :user: {{ admin }}
+  :pass: {{ redhat }}
+  :url: {{ https://azrbqinl-001.testdlg.local/ }}
+  :timeout: {{ 60 }}
+  :org: {{ DirectLineGroup }}
+  :lifecycle: {{ TEST }}
+  :keep: {{ 3 }}
+  :promote_cvs: {{ yes }}
+  :checkrepos: {{ no }}
+:cv:
+  {{ cv_rhel8 }}: {{ 1.0 }}
+:promote:
+  - {{ cv_rhel8 }}
