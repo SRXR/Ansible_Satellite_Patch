@@ -1,6 +1,6 @@
 ---
 - name: publish all new content views
-  hosts: RHEL
+  hosts: Satellite
   gather_facts: false
   tasks:
   - name: update all content views
