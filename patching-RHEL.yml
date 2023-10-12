@@ -1,4 +1,4 @@
-- name: Patch non HA Linux Servers
+- name: Patch Linux Servers
   hosts: all
   tasks:
   tasks:
