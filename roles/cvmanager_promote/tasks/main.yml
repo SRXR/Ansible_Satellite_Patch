@@ -1,7 +1,7 @@
 ---
 - name: Create promote config file
   template:
-    src: promote.yml.j2
+    src: rhel_promote.yml.j2
     dest: "/var/katello-cvmanager/promote_{{ contentview }}.yml"
 
 - name: update all content views
