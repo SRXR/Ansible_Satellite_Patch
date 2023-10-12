@@ -1,0 +1,15 @@
+---
+:settings:
+  :user: admin
+  :pass: redhat
+  :uri: https://azrbqinl001.testdlg.local/
+  :timeout: 300
+  :org: 1
+  :lifecycle: 2
+  :keep: 1
+  :promote_cvs: true
+  :checkrepos: true
+:cv:
+  cv_rhel8: latest
+:promote:
+  - cv_rhel8
