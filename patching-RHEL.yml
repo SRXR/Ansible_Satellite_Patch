@@ -1,5 +1,5 @@
 - name: Patch RHEL Servers
-  hosts: all
+  hosts: RHEL
   tasks:
   tasks:
     - name: Ensure Yum-utils is installed
