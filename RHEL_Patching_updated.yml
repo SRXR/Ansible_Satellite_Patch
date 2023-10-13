@@ -18,12 +18,4 @@
             name: '*' 
             state: latest
 
-        - name: check if reboot is required
-          shell: needs-restarting -r
-          failed_when: false
-          changed_when: false
-          register: reboot_required
-  
-        - name: reboot
-          reboot:
-        when: reboot_required.rc != 0
+
